@@ -22,6 +22,7 @@ public class Opr04_1 {
 		boolean res = ch>='A' && ch<='Z';
 		str = res ? "대문자" : "대문자 아님";
 		System.out.println(ch + "문자는 " + str);
+		// ds
 	}
 
 }
