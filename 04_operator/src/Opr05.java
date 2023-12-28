@@ -15,5 +15,7 @@ public class Opr05 {
 		System.out.println(n);
 		n -= 10;
 		System.out.println(n);
+		n *= 10;
+		System.out.println(n);
 	}
 }
