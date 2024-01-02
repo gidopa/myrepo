@@ -20,3 +20,26 @@
  for문 For02.java
  for문 활용 For03.java
  
+ while문 
+ 	초기식;
+ 	while(조건식){
+ 	실행문;
+ 	증감식;
+ 	}
+ 조건식이 true일때 반복 fasle면 while문을 빠져나옴 while(true) -> 무한 loop // 무한 루프면 break으로 빠져나옴
+ 
+ 숫자 1부터 5사이의 숫자를 5번 반복해서 출력하는 예제 while01
+ 1부터 10사이의 숫자중 짝수들의 합을 구해서 출력 while02
+ 
+ do while문
+	
+	do{
+		실행문;
+	} while(조건식);
+조건식이 true 일때 반복 최초 한번은 무조건 실행
+
+do while로 1~5까지 출력 While03.java
+
+ 
+ 	
+ 
