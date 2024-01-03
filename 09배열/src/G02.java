@@ -20,7 +20,7 @@ public class G02 {
 		for (int j = 0; j < 11; j++) {
 			int month = MonDays[0][j];
 			int day = MonDays[1][j];
-			System.out.println(month + "월달은 " + day + "일까지 있음");
+			System.out.println(month + "월달은 " + day + "일까지 있음");		// 단일 for문으로 월 달 찍어보기
 		}
 
 		/* 향상된 for문
