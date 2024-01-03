@@ -22,7 +22,8 @@ public class Prob1002 {
 
 	public static int tan_point(int x1, int y1, int r1, int x2, int y2, int r2) {
 		int dist_pow = (int) (Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
-
+// 두 원의 줌심간의 거리를 sqrt를 쓰지않고 int형으로 구함
+//r1, r2 로 원과의 거리를 비교하여 위상에 따라 경우 분리
 		if (x1 == x2 && y1 == y2 && r1 == r2) {
 			return -1;
 		} else if (dist_pow > Math.pow(r2 + r1, 2)) {
@@ -36,7 +37,7 @@ public class Prob1002 {
 		} else {
 			return 2;
 		}
-			
+		// 접점의 개수에따라 경우를 분리하여 해당 경우에 따라 점점의 개수 반환
 		
 	}
 }

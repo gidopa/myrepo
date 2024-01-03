@@ -41,6 +41,5 @@ public class Arr04 {
 		// student 배열의 원소를 하나씩 돌면서 순서대로 학생별 점수 총합 입력
 		System.out.println(Arrays.toString(student));
 		
-		
 	}
 }
