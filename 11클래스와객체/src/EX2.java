@@ -19,9 +19,27 @@ public class EX2 {
 		lg.power();
 		System.out.println(lg.power);
 		System.out.println(lg.vol);
-		lg.VolUp();
+		lg.volUp();
 		System.out.println(lg.ch);
 		lg.power();
+		System.out.println();
+		
+		Tv samsung = new Tv();
+		samsung.height = 160;
+		samsung.width = 90;
+		samsung.power = true;
+		samsung.vol = 3;
+		System.out.println(samsung.power);
+		samsung.power();
+		System.out.println(samsung.color);
+		samsung.color = 'G';
+		System.out.println(samsung.color);
+		samsung.elec();
+		samsung.volDown();
+		samsung.volDown();
+		samsung.volDown();
+		samsung.volDown();
+		samsung.volDown();
 	}
 
 }
@@ -49,16 +67,23 @@ class Tv{
 			System.out.println("TV 끔");
 		}
 	}
-	void VolUp(){
+	void volUp(){
 		vol++;
 		System.out.println("볼륨 : "+vol);
 	}
-	void VolDown(){
-		vol--;
+	void volDown(){
+		if(vol <=0) {
+			System.out.println("볼륨이 0입니다");
+		}else vol--;
 		System.out.println("볼륨 : "+vol);
+		
 	}
 	void changeCh(int x){
 		ch = x;
 		System.out.println("채널 : "+ch);
+	}
+	void elec() {
+		power = false;
+		System.out.println("과전류로 TV 꺼짐");
 	}
 }
