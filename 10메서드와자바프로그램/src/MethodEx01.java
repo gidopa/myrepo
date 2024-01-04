@@ -1,4 +1,6 @@
-
+class Test12{
+	
+}
 
 public class MethodEx01 {
 /*
