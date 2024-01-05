@@ -1,13 +1,5 @@
 
-public class Student {
-
-	public static void main(String[] args) {
-
-	}
-
-}
-
-class student{
+class Student{
 	String name;
 	int ban;
 	int no;
