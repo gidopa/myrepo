@@ -5,8 +5,6 @@ public class power {
 		int x = 2;
 		int y = 5;
 	
-
-	
 		System.out.println(power(x,y));
 	}
 
