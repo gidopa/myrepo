@@ -31,16 +31,16 @@ class FruitSeller {
 	int numOfApple;
 	int myMoney;
 
-	int saleApple(int money) {        // buyApple 했는데 구매자가 돈이 없을때 어떻게 구현?
+	int saleApple(int money) {        // buyApple 했는데 구매자가 돈이 없을때 어떻게 구현? -> 사전검사로 처리
 		int num = money / applePrice;
 		if(numOfApple - num < 0) {
-			System.out.println("가진 모든 사과 "+numOfApple+"개를 판매함");
+			System.out.println("가진 모든 사과 "+numOfApple+"개를 판매함");		// 가진 사과보다 더 많이 buy했을때 가진것만 판매하고 남은건 0으로 처리
 			int salesApple = numOfApple;
-			myMoney += numOfApple * applePrice;
+			myMoney += numOfApple * applePrice;				// 판 갯수만큼만 돈을 받음
 			numOfApple =0;
 			return salesApple;
 			
-		}else if(numOfApple - num >= 0){
+		}else if(numOfApple - num >= 0){			// 일반적 경우 
 		numOfApple -= num;
 		myMoney += money;
 		}
@@ -72,23 +72,23 @@ class FruitBuyer{
 	public void buyApple(FruitSeller seller, int money) {
 		// 과일을 구매 -> 판매자가 판매 하는 행위가 동시에 발생 -> seller.saleApple 호출 
 		// 과일 구매를 위해 money 변수 값 전달하고 구매한 사과 갯수를 반환받아서 구매자 사과갯수에 누적
-		int originNumOfApple = numOfApple;
 		if (money > myMoney) {
 	        System.out.println("돈이 부족합니다.");
 	        return;
 	        }
-		numOfApple += seller.saleApple(money);
+		int originNumOfApple = numOfApple;			// 구매자가 가진 돈보다 많이 사려고 하면 return;으로 메서드 종료
+		numOfApple += seller.saleApple(money);		// saleApple로 상황에 따른 사과 갯수 누적
 		if(seller.numOfApple == 0) {
 			 
-			myMoney -= (numOfApple-originNumOfApple) * seller.applePrice;
+			myMoney -= (numOfApple-originNumOfApple) * seller.applePrice;		// 판매자가 가진 양보다 많이 사려하면 판매자가 가진 양만큼만 구매
 			
 		}
-		else if(myMoney - money <0) {
-			System.out.println("돈이 부족함");
-			numOfApple -= (numOfApple - originNumOfApple);
-		}else {
+//		else if(myMoney - money <0) {
+//			System.out.println("돈이 부족함");						// 돈이 부족할때 였는데 앞의 사전검사로 예외는 처리
+//			numOfApple -= (numOfApple - originNumOfApple);
+		else {
 			
-			myMoney -= money;
+			myMoney -= money;						// 정상적인 경우
 		}
 	}
 	public void showBuyResult() {
