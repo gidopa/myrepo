@@ -4,19 +4,19 @@ public class Ex1 {
 	public static void main(String[] args) {
 		
 		FruitSeller seller = new FruitSeller();
-		FruitSeller seller_pro = new FruitSeller();
+		FruitSeller sellerPro = new FruitSeller();
 		seller.applePrice = 1000;
 		seller.wholesalePrice = 400;
-		seller_pro.applePrice = 1100;
-		seller_pro.wholesalePrice = 300;
-		seller_pro.numOfApple = 20;
+		sellerPro.applePrice = 1100;
+		sellerPro.wholesalePrice = 300;
+		sellerPro.numOfApple = 20;
 		FruitBuyer buyer = new FruitBuyer();
 		buyer.myMoney=8000;
 		seller.numOfApple = 7;
 		buyer.buyApple(seller, 9000);
-		buyer.buyApple(seller_pro, 8000);
-		System.out.println("--seller_pro--");
-		seller_pro.showSaleResult();
+		buyer.buyApple(sellerPro, 8000);
+		System.out.println("--sellerPro--");
+		sellerPro.showSaleResult();
 		System.out.println("--seller--");
 		seller.showSaleResult();
 		System.out.println("--buyer--");
@@ -85,7 +85,7 @@ class FruitBuyer{
 		int originNumOfApple = numOfApple;			// saleApple로 구매자의 사과갯수를 바꾸기 때문에 최초 상태의 사과 갯수 저장
 		numOfApple += seller.saleApple(money);		// saleApple로 상황에 따른 사과 갯수 누적
 //		if(seller.numOfApple == 0) 
-		{				// 판매자가 가진것보다 많은 양을 사려고 했을때 -> sellr의 남은 사과를 0으로 만들어줌
+		{				// 판매자가 가진것보다 많은 양을 사려고 했을때 -> seller의 남은 사과를 0으로 만들어줌
 			 
 			myMoney -= (numOfApple-originNumOfApple) * seller.applePrice;		// 판매자가 가진 양보다 많이 사려하면 판매자가 가진 양만큼만 구매
 			
