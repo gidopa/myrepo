@@ -3,7 +3,14 @@ package 백준;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+//곱셈 수기로 계산할때 나오는 값 계산
+//472 * 385
+//-----------
+//472 * 5
+//472 * 80  
+//472 * 300
+//--------------
+//472*385
 public class prob2588_3 {
 
 	public static void main(String[] args) throws IOException {

@@ -1,5 +1,5 @@
 package 백준;
-
+// a*b 입력받아서 출력
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;

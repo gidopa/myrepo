@@ -1,5 +1,6 @@
 package 백준;
 import java.util.Scanner;
+// 조건문 연습
 public class prob9498 {
 
 	public static void main(String[] args) {

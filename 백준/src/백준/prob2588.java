@@ -5,7 +5,14 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class prob2588 {
-
+	// 곱셈 수기로 계산할때 나오는 값 계산
+	// 472 * 385
+	//-----------
+	// 472 * 5
+	// 472 * 80  
+	// 472 * 300
+	//--------------
+	// 472*385
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		Scanner scan = new Scanner(System.in);

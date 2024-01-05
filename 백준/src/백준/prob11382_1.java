@@ -1,5 +1,6 @@
 package 백준;
 import java.util.Scanner;
+// 3항 더하기 연산 출력
 public class prob11382_1 {
 
 	public static void main(String[] args) {

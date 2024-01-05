@@ -1,5 +1,5 @@
 package 백준;
-
+// a/b 출력
 import java.util.Scanner;
 public class prob1008 {
 

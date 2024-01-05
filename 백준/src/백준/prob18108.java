@@ -1,5 +1,6 @@
 package 백준;
 
+// 불기년도 구하기
 import java.util.Scanner;
 public class prob18108 {
 

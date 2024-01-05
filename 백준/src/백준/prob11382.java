@@ -1,5 +1,6 @@
 package 백준;
-
+// 3항 입력받고 더하기 출력
+// 77 77 7777
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

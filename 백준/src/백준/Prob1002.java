@@ -1,5 +1,6 @@
 package 백준;
-
+// 백준 터렛문제 
+// 두 원의 접점의 개수
 import java.util.Scanner;
 
 public class Prob1002 {
