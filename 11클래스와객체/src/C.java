@@ -22,7 +22,6 @@ public class C {
 		a.a_met(b);		/* a_met(b){  -> a_met(0x2)
 						a_met 실행
 						System.out.println("a_met execute"); -> 실행 그 다음
-						b.b_met(); -> 실행
 						b -> 0x2 참조 후 b_met 실행 
 						System.out.println("b_met execute"); 실행
 						출력결과 
