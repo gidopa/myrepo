@@ -22,7 +22,7 @@ public class Ex3_1 {
             peopleArray[i] = persom;
             System.out.println(persom.name);
         }
-      System.out.println(persom0.name);
+
         
         
     }
