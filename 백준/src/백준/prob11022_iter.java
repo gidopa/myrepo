@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class prob11021_iter {
+public class prob11022_iter {
 
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -18,7 +18,7 @@ public class prob11021_iter {
 			int a = Integer.parseInt(st.nextToken());
 			int b = Integer.parseInt(st.nextToken());
 			sum = a+b;
-			System.out.println("Case #"+i+": "+sum);
+			System.out.println("Case #"+i+": "+a+" + "+b+" = "+sum);
 		
 			
 		}
