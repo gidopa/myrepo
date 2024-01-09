@@ -50,29 +50,35 @@ public class TriangleMain {
 class Triangle { // 삼각형
 	double height;
 	double width;
-	
+
 // alt + shift + s 하고 o를 누르면 생성자 만들 수 있음
-public Triangle(double height, double width) {
+	public Triangle(double height, double width) {
 		this.height = height;
 		this.width = width;
 	}
+
 // alt + shift + s 하고 r을 누르거나 getter/setter 찾기
-public double getHeight() {
-	return height;
-}
+	public double getHeight() {
+		return height;
+	}
 
-public void setHeight(double height) {
-	this.height = height;
-}
+	public void setHeight(double height) {
+		this.height = height;
+	}
 
-public double getWidth() {
-	return width;
-}
+	public double getWidth() {
+		return width;
+	}
 
-public void setWidth(double width) {
-	this.width = width;
-}
+	public void setWidth(double width) {
+		this.width = width;
+	}
 
+	double getArea() {
+		return (double) 1 / 2 * height * width; 
+	}
+
+}
 //	Triangle(double height, double width) {
 //		this.height = height;
 //		this.width = width;
@@ -87,11 +93,7 @@ public void setWidth(double width) {
 //		this.width = width;
 //	}
 //
-	double getArea() {
-		return (double)1/2 * height * width;
-	}
 
-}
 /*
  * 삼각형의 넓이: 88.23 삼각형의 넓이 : 34.5
  */
