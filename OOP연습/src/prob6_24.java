@@ -9,9 +9,10 @@ public class prob6_24 {
 	}
 	public static int abs(int value) {
 		
-		if(value<0) {
-			value= - value;
-		}
-		return value;
+//		if(value<0) {
+//			value= - value;
+//		}
+		return (value>0 ? value : -value);
+//		return value;
 	}
 }
