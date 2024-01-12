@@ -13,7 +13,7 @@ public class prob6_20 {
 		
 		for(int i =0;i<arr.length;i++) {
 			int temp=arr[i];
-			int ch = (int)(Math.random()*arr.length);
+			int ch = (int)(Math.random()*arr.length);//
 			arr[i]=arr[ch];
 			arr[ch]=temp;
 		}
