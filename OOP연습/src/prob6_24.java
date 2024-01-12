@@ -12,7 +12,8 @@ public class prob6_24 {
 //		if(value<0) {
 //			value= - value;
 //		}
-		return (value>0 ? value : -value);
 //		return value;
+		return (value>0 ? value : -value);
+
 	}
 }
