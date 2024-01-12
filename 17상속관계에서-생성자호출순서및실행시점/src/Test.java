@@ -7,7 +7,7 @@ public class Test {
 		emp.getEmployee();
 		man.getStringBuilderManager();
 		man.getManger();
-		
+		System.out.println(48-'0');
 	}
 
 }

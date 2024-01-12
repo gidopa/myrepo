@@ -1,0 +1,20 @@
+클래스변수 : width, height
+인스턴스 변수 : kind , num
+지역변수 : k , n args[], card
+
+6_9 는 한거네 
+6_10 b,e
+6_11 b
+6_12 c, d
+6_13 b,d //  b c d 
+6_14 c,e
+6_15 d   // a
+6_16 a,e  // 지역변수는 call stack 
+		지역변수의 블럭이나 메소드 종료시 같이 소멸 -> 메모리 부담이 적음
+6_17 c,
+6_18 A non-static 변수값을 static filed에 사용
+	// B라인 static 메소드내에서 인스턴스 메소드 사용
+	 D static 메소드내에서 인스턴스 메소드 사용
+6_19 ABC123
+	 ABC123456
+6_20 
