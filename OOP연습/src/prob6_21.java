@@ -33,23 +33,23 @@ class MyTv {
 
 	void volumeUp() {
 		if (volume < MAX_VOLUME) {
-			++volume;
+			volume++;
 		}
 	}
 
 	void volumeDown() {
 		if (volume > MIN_VOLUME) {
-			--volume;
+			volume--;
 		}
 	}
 	void channelUp() {
-		++channel;
+		channel++;
 		if(channel>MAX_CHANNEL) {
 			channel = MIN_CHANNEL;
 		}
 	}
 	void channelDown() {
-		--channel;
+		channel--;
 		if(channel<MIN_CHANNEL) {
 			channel = MAX_CHANNEL;
 		}
