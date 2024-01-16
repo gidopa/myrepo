@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 // 영수증 문제 반복분 ?!
-public class prob25304 {
+public class prob25304_iter {
 
 	public static void main(String[] args) throws IOException{
 		int sum =0;

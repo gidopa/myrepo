@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 // 오븐문제 현재시간, 조리시간을 입력받아 조리 완료 시간 출력
-public class prob2525 {
+public class prob2525_if {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

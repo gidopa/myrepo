@@ -1,7 +1,7 @@
 package 백준;
 // 윤년 구하기
 import java.util.Scanner;
-public class prbo2753 {
+public class prbo2753_if {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

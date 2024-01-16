@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 //두 수 비교하기
 
-public class prob1330 {
+public class prob1330_if {
 
 	public static void main(String[] args)throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

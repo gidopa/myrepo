@@ -1,7 +1,7 @@
 package 백준;
 import java.util.Scanner;
 
-public class prob8393 {
+public class prob8393_regression {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

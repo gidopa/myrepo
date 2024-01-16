@@ -2,7 +2,7 @@ package 백준;
 
 // 불기년도 구하기
 import java.util.Scanner;
-public class prob18108 {
+public class prob18108_IO {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);

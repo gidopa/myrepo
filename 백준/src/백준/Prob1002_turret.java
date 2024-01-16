@@ -3,7 +3,7 @@ package 백준;
 // 두 원의 접점의 개수
 import java.util.Scanner;
 
-public class Prob1002 {
+public class Prob1002_turret {
 
 	public static void main(String[] args) {
 		Scanner Scan = new Scanner(System.in);

@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-public class prob2588 {
+public class prob2588_for_IO {
 	// 곱셈 수기로 계산할때 나오는 값 계산
 	// 472 * 385
 	//-----------

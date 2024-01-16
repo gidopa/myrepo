@@ -1,7 +1,7 @@
 package 백준;
 //구구단 출력
 import java.util.Scanner;
-public class prob2739 {
+public class prob2739_iter {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
