@@ -2,5 +2,6 @@
 // 모듈기술자 파일에 작성
 module myModule_a {
 	exports pack1;
-	exports pack2;
+//	exports pack2;
+	requires transitive myModule_b;
 }

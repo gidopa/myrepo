@@ -2,5 +2,5 @@
 // 두 모뮬에 대한 의존설정이 필요함
 module myApplication_2 {
 	requires myModule_a;
-	requires myModule_b;
+	// requires myModule_b;
 }
