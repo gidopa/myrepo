@@ -3,12 +3,14 @@ package exam01;
 // 객체의 멤버 id가 같은지 확인하는 메소드 equals로 구현
 public class EqualsExam {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws NullPointerException{
 		Member a = new Member("blue");
 		Member b = new Member("red");
 		Member c = new Member("blue");
 		System.out.println(a.equals(b));
 		System.out.println(a.equals(c));
+		String s=". ,";
+		System.out.println(s.toString());
 	}
 
 }
