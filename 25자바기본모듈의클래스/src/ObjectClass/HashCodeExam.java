@@ -1,4 +1,4 @@
-package exam02;
+package ObjectClass;
 /*
 	Student 객체를 동등 비교하기 위해 hashCode()와 equals()메소드를 오버라이딩
 	학생번호와 이름으로 해시코드를 생성하고, 학생번호와 이름이 동일한 경우에만 equals()의 결과를 true로 리턴하도록

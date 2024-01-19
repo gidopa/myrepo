@@ -1,4 +1,4 @@
-package exam01;
+package ObjectClass;
 // 멤버객체의 동등 비교를 위해 오브젝트 클래스의 equals 메소드 오버라이딩
 // 객체의 멤버 id가 같은지 확인하는 메소드 equals로 구현
 public class EqualsExam {
