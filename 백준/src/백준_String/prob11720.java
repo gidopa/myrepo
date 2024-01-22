@@ -17,6 +17,7 @@ public class prob11720 {
 			
 		}
 		System.out.println(sum);
+		
 	}
 
 }
