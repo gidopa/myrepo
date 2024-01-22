@@ -29,7 +29,7 @@ public class Ex2 {
 		// 여기서 nextToken()으로 토큰이 빠지면 countTokens의 값도 같이 줄어들기때문에 
 		// i<st.countTokens()로하면 제대로 반복하지 못함.
 		// 위처럼 while문으로 돌리는게 정확함.
-		for(int i=0;i<st.countTokens()+5;i++) {
+		for(int i=0;i<st.countTokens();i++) {
 			System.out.println(st.nextToken());
 		}
 	}
