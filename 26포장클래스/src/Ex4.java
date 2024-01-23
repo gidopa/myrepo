@@ -46,6 +46,7 @@ public class Ex4 {
 		int res = c1 + c2 ;
 		System.out.println(res);
 		
+		
 	}
 
 }
