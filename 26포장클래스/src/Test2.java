@@ -11,7 +11,11 @@ public class Test2 {
 		System.out.println(pi.doubleValue());
 		System.out.println(String.valueOf(n.intValue()));
 		System.out.println(String.valueOf(pi.doubleValue()));
+		int i2 = n.intValue();
+		System.out.println(i2);
 		
+		Double d = Double.valueOf(pi.doubleValue()+1.2);
+		System.out.println(d.toString());
 	}
 
 }
