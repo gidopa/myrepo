@@ -16,6 +16,7 @@ public class Test4 {
 		System.out.println(s1);
 		// 정수 123을 16진수의 문자열 "7b"로 변환후 저장된 문자열객체메모리주소를 반환받아 s2변수에저장 
 		String s2 = Integer.toHexString(i);
+		System.out.println(Integer.toHexString(i));
 		// s2변수가 사용하고 있는 문자열 객체 내부에 저장된 "7b"를 반환 받아출력
 		System.out.println(s2);
 		// 실수3.141592f를 문자열 "3.141592"로 변환후 저장된 문자열객체메모리주소를 반환받아 s3변수에 저장
