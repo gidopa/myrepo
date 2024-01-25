@@ -23,7 +23,7 @@ class A{
 		}
 		B b = new B();
 		b.method1();
-		b.method2();
+		B.method2();
 		
 			
 		}
@@ -40,7 +40,7 @@ class A{
 	}
 	B b = new B();
 	b.method1();
-	b.method2();
+	B.method2();
 	}
 	
 	}
