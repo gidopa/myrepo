@@ -1,28 +1,30 @@
 package 심화1;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.IOException;
 
 public class prob1157 {
-
-	public static void main(String[] args) throws IOException{
+	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String str = br.readLine();
-		str.toUpperCase();
-		int max = 0;
 		int[] arr = new int[26];
-		for(int i=0;i<str.length();i++) {
-			arr[str.charAt(i)-'A']++;
+		String str = br.readLine().toUpperCase();
+		for (int i = 0; i < str.length(); i++) {
+			int str_char = str.charAt(i);
+			arr[str_char - 'A']++;
+
 		}
-		for(int i=0;i<arr.length-1;i++) {
-			if(arr[i]>arr[i+1]) {
+		int max = -1;
+		char index = 0;
+
+		for (int i = 0; i < 26; i++) {
+			if (arr[i] > max) {
 				max = arr[i];
-			}else {
-				max = arr[i+1];
+				index = (char) (i + 65);
+			} else if (arr[i] == max) {
+				index = '?';
 			}
 		}
-		
+		System.out.println(index);
 	}
-
 }
