@@ -18,6 +18,7 @@ public class StackTest01 {
 		while(!stack.isEmpty()) {
 			System.out.println(stack.pop());
 		}
+		
 	}
 
 }

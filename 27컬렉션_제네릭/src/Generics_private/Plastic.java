@@ -1,4 +1,4 @@
-package Generics;
+package Generics_private;
 
 public class Plastic extends Material{
 	public String toString() {

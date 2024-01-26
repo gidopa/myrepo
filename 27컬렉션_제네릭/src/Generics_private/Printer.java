@@ -1,4 +1,4 @@
-package Generics;
+package Generics_private;
 
 import lombok.Getter;
 import lombok.Setter;

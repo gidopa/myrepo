@@ -1,4 +1,4 @@
-package Generics;
+package Generics_private;
 
 public class Water {
 
