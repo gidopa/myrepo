@@ -1,4 +1,5 @@
 //vector를 만들때 사용되는 Vector 클래스
+package Collection;
 
 import java.util.Vector;
 

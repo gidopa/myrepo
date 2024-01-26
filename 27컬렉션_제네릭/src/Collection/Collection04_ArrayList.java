@@ -1,4 +1,5 @@
 // ArrayList에 저장된 객체를 index로 접근해 꺼내와 사용하는 예제
+package Collection;
 
 import java.util.ArrayList;
 import java.util.List;

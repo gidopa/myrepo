@@ -17,7 +17,6 @@ public class PrinterTest {
 		
 		printerPlastic.printing();
 		
-		ArrayList<E> list = new ArrayList<E>();
 	}
 
 }

@@ -18,6 +18,7 @@
   	 4. 메소드 추가지원
   	 Iterator는 forEachRemaining()메소드 자원. 나머지 모든객체를 소비하면서 특정 동작 수행
  */
+package Collection;
 
 import java.util.Enumeration;
 import java.util.Vector;

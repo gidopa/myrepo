@@ -14,6 +14,7 @@
 	Map - 객체 데이터를 단독으로 저장하지 않고 , key : value(객체데이터) 쌍으로 구현
 		  key를 통해 value를 추출 할 수 있다.
 */
+package Collection;
 
 import java.util.HashSet;
 import java.util.Set;

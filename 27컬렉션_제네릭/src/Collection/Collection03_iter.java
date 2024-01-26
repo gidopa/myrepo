@@ -1,6 +1,7 @@
 /*
 	Iterator인터페이스를 구현한 Iterator객체의 메소드를 이용해 쉽게 ArrayList 배열의 객체 추출
 */
+package Collection;
 
 import java.util.ArrayList;
 import java.util.List;

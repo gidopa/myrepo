@@ -2,6 +2,7 @@
  	스택은 Last in First Out       LIFO
  	
  */
+package Collection;
 
 import java.util.Stack;
 

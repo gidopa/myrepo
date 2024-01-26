@@ -5,6 +5,8 @@ isEmpty()						ArrayList가 비었으면 true 아니면 false를 리턴
 clear()							저장된 모든 객체 삭제
 contains(Object o)				파라미터 o를 가지고 있는지 확인 ture or false 리턴		
 */
+package Collection;
+
 import java.util.ArrayList;
 import java.util.List;
 

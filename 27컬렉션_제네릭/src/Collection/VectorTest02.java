@@ -1,4 +1,5 @@
 //vector에 저장된 객체 얻기와 객체 삭제
+package Collection;
 
 import java.util.Enumeration;
 import java.util.Vector;
