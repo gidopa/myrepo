@@ -1,4 +1,4 @@
-package File;
+package file;
 //특정파일에 저장된 내용을 바이트단위로 읽어들여 모니터로 출력
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
