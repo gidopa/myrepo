@@ -1,5 +1,6 @@
+package File;
 
-public class dsadas {
+public class IOTest06 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
