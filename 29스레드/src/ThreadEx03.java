@@ -15,7 +15,6 @@ public class ThreadEx03 {
 }
 
 class ThreadDemo1 implements Runnable{
-	private int count;
 	Thread thread;
 	
 	public ThreadDemo1(String name) {
@@ -37,8 +36,6 @@ class ThreadDemo1 implements Runnable{
 		}
 		
 	}
-	
-	
 }
 
 
