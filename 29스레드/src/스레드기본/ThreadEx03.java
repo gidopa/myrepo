@@ -1,4 +1,6 @@
 //메인스레드(주스레드,main메소드)를 작성해 놓은 클래스
+package 스레드기본;
+
 public class ThreadEx03 {
 	//메인스레드. 하는일 : 보조스레드 객체 생성, 0.5초 간격으로 .을 10번 반복해서 출력
 	public static void main(String[] args) throws InterruptedException {

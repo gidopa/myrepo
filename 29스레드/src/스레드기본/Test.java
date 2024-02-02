@@ -2,6 +2,8 @@
 	-Runnable 인터페이스 내부에 만들어져 있는 추상메소드 run을 오버라이딩한 클래스를 만들고
 	만든 클래스의 객체를 생성해 주소를 Thread클래스의 객체 생성시 생성자로 전달해 new Thread(일반클래스객체주소);
 */
+package 스레드기본;
+
 public class Test implements Runnable {
 	String name;
 

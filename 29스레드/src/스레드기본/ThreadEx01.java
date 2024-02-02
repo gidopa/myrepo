@@ -4,6 +4,8 @@
 	스레드는 실행시마다 CPU가 랜덤으로 스케쥴링하는데 우선순위를 부여하면 특정 보조스레드가 먼저 수행되게 할 수 있음
 	주스레드로만 작업을 하면 순차적인 일처리를 하는데 주스레드에서 탄생한 보조자식스레드 객체들에게 일처리를 시키면 병행처리를 통해 빠르게 수행 가능
 */
+package 스레드기본;
+
 public class ThreadEx01 extends Thread{
 
 	public static void main(String[] args) {
