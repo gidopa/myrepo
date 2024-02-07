@@ -7,7 +7,7 @@ public class ThreadEx08 {
 		//      현재 실행되고 있는 메인스레드가 속해 있는 그룹에 대한 스레드 그룹객체메모리의 주소 얻기
 		
 		ThreadGroup g_main = Thread.currentThread().getThreadGroup();
-		
+		 
 		//수동으로 스레드 그룹 만들어 보기
 		ThreadGroup grp1 = new ThreadGroup("Group1"); //스레드 그룹 생성시 이름을 지정하여 만들수 있다
 		ThreadGroup grp2 = new ThreadGroup("Group2");
