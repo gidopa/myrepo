@@ -4,6 +4,8 @@
 	List li = new List();   li.addItem("Item");
 	선택 컴포넌트와 마찬가지로 여러개의 항목중에서
 */
+package awt;
+
 import java.awt.*;
 import java.awt.event.*;
 

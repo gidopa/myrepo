@@ -10,6 +10,8 @@
 	getItem()
 	- 이벤트를 일으킨 아이템을 얻을 떄 사용 
 */
+package awt;
+
 import java.awt.*;
 import java.awt.event.*;
 public class Checkbox_Prac {

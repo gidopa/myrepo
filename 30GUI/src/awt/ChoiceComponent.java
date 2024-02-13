@@ -5,6 +5,7 @@
 	- 선택 컴포넌트 생성 후에 드롭다운 리스트에 들어갈 항목들을 컴포넌트에 추가하기 위해 addItem()메소드를 호출
 	Choice c = new Choic(); c.addItem("Item")
 */
+package awt;
 
 import java.awt.*;
 import java.awt.event.*;

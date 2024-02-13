@@ -3,6 +3,8 @@
 	- 여러 줄의 텍스트를 입력받기 위해 사용되는 컴포넌트
 	- 엔터키로 줄 바꿈 가능
 */
+package awt;
+
 import java.awt.*;
 import java.awt.event.*;
 // 직접 프레임창 만들고 버튼 클릭시 일 처리를 위한 이벤트 리스너 클래스 같이 만들

@@ -1,6 +1,8 @@
 // 프레임 창 만들기 2가지 방법
 // 방법 1: 메인메소드 안에서 JFrame클래스 객체 생성
 // 방법 2: JFrame클래스를 상속받아 사용자 정의 프레임창 생성
+package awt;
+
 import java.awt.*; //화면 디자인에 필요한 클래스나 인터페이스 제공 
 import java.awt.event.*; // 이벤트 처리 클래스나 인터페이스 제공
 import javax.swing.*; //화면 디자인용

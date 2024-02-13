@@ -2,6 +2,8 @@
 	1.라디오 버튼은 체크박스 그룹을 만들어 하나만 선택하도록
 	Chechkbox의 첫번째 매개변수는 캡션 값, 두 번째는 체크박스 그룹, 마지막은 체크된 상태로 출력될것인지 선택
 */
+package awt;
+
 import java.awt.*;
 import java.awt.event.*;
 public class CheckboxGroup_Prac {

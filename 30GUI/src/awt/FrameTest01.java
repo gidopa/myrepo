@@ -1,3 +1,4 @@
+package awt;
 import java.awt.*;
 public class FrameTest01 {
 

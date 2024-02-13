@@ -15,6 +15,8 @@
  	- 텍스트 필드가 여러 개 있을때 각 텍스트 필드가 어떤 역할을 하는지 알려주기 위한 텍스트 표시를 위한 영역을 보여주는 컴포넌트
  	주제 : ID와 패스워드를 입력받는 텍스트필드
 */
+package awt;
+
 import java.awt.*;
 import java.awt.event.*;
 public class TextFiled {
