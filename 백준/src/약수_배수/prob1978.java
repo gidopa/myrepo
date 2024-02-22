@@ -29,5 +29,5 @@ public class prob1978 {
 		}
 		System.out.println(cnt);
 	}
-
+//
 }
