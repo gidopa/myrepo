@@ -1,0 +1,9 @@
+
+0
+java:S1220""Move this file to a named package.
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(îãÑŽ
+E	java:S106"+Replace this use of System.out by a logger.(¤Æð¨ùÿÿÿÿ
+E	java:S106,"+Replace this use of System.out by a logger.(Øè¸ûüÿÿÿÿ
+E
+java:S2093+"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+E	java:S106l"+Replace this use of System.out by a logger.(Û‡ô´úÿÿÿÿ
